@@ -9,6 +9,12 @@
 	background-color: #FF731D;
 }
 
+.cabecalho__menu {
+	display: flex;
+	justify-content: flex-end;
+	gap: 0 40px;
+}
+
 .principal {
 	padding: 70px;
 	margin: 30px 0;
