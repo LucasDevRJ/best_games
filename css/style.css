@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&display=swap');
 
 .corpo {
-	background-color: #FFF7E9;
+	background-color: #FFF0F5;
 }
 
 .cabecalho {
 	padding: 50px;
 	background-color: #FF731D;
+}
+
+.cabecalho__titulo__imagem {
+	width: 13%;
 }
 
 .cabecalho__menu {
