@@ -9,7 +9,7 @@
 	background-color: #FF731D;
 }
 
-.cabecalho__titulo__imagem {
+.cabecalho__titulo__imagem, .rodape__logo {
 	width: 13%;
 }
 
@@ -60,6 +60,11 @@
 .rodape {
 	background-color: #FF731D;
 	padding: 50px;
+}
+
+.rodape__imagem {
+	display: flex;
+	justify-content: center;
 }
 
 .rodape__endereco {
