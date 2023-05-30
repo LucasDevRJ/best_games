@@ -1,0 +1,21 @@
+.cabecalho {
+	padding: 50px;
+	background-color: #FF731D;
+}
+
+.cabecalho__titulo__imagem, .rodape__logo {
+	width: 13%;
+}
+
+.cabecalho__menu {
+	display: flex;
+	justify-content: flex-end;
+	gap: 0 40px;
+}
+
+.cabecalho__menu__link {
+	text-decoration: none;
+	color: #FFF0F5;
+	font-size: 24px;
+	font-family: 'Comfortaa', cursive;
+}

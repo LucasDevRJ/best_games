@@ -4,28 +4,6 @@
 	background-color: #FFF0F5;
 }
 
-.cabecalho {
-	padding: 50px;
-	background-color: #FF731D;
-}
-
-.cabecalho__titulo__imagem, .rodape__logo {
-	width: 13%;
-}
-
-.cabecalho__menu {
-	display: flex;
-	justify-content: flex-end;
-	gap: 0 40px;
-}
-
-.cabecalho__menu__link {
-	text-decoration: none;
-	color: #FFF0F5;
-	font-size: 24px;
-	font-family: 'Comfortaa', cursive;
-}
-
 .principal {
 	padding: 70px;
 	margin: 30px 0;
@@ -89,12 +67,6 @@
 .rodape__endereco__imagem {
 	margin-top: 10px;
 }
-
-.rodape__endereco__contatos__texto__link {
-	text-decoration: none;
-	color: #000000;
-}
-
 /*
 5F9DF7
 1746A2
