@@ -89,6 +89,12 @@
 .rodape__endereco__imagem {
 	margin-top: 10px;
 }
+
+.rodape__endereco__contatos__texto__link {
+	text-decoration: none;
+	color: #000000;
+}
+
 /*
 5F9DF7
 1746A2
