@@ -1,0 +1,20 @@
+.principal {
+	padding: 70px;
+	margin: 30px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0 50px;
+}
+
+.principal__conteudo__jogos__jogo {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1746A2;	
+	box-sizing: border-box;
+	padding: 20px 20px 40px 20px;
+}
+
+.principal__conteudo__jogos__jogo__imagem {
+	width: 15vw;
+}

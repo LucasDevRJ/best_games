@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&family=Wix+Madefor+Display&display=swap');
-
 .corpo {
 	background-color: #FFF0F5;
 }
@@ -35,38 +33,7 @@
 	margin-top: 5px;
 }
 
-.rodape {
-	background-color: #FF731D;
-	padding: 50px;
-}
 
-.rodape__imagem {
-	display: flex;
-	justify-content: center;
-}
-
-.rodape__endereco {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-	top: 40px;
-}
-
-.rodape__endereco__local__texto, 
-.rodape__endereco__autor__texto,
-.rodape__endereco__redes__texto,
-.rodape__endereco__contatos__texto {
-	font-family: 'Wix Madefor Display', sans-serif;
-}
-
-.rodape__endereco__redes {
-	order: -1;
-}
-
-.rodape__endereco__imagem {
-	margin-top: 10px;
-}
 /*
 5F9DF7
 1746A2
