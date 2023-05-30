@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&family=Wix+Madefor+Display&display=swap');
 
 .corpo {
 	background-color: #FFF0F5;
@@ -17,6 +17,13 @@
 	display: flex;
 	justify-content: flex-end;
 	gap: 0 40px;
+}
+
+.cabecalho__menu__link {
+	text-decoration: none;
+	color: #FFF0F5;
+	font-size: 24px;
+	font-family: 'Comfortaa', cursive;
 }
 
 .principal {
@@ -45,9 +52,23 @@
 	font-size: 24px;
 }
 
+.principal__figura__descricao {
+	font-family: 'Wix Madefor Display', sans-serif;
+	margin-top: 5px;
+}
+
 .rodape {
 	background-color: #FF731D;
 	padding: 50px;
+}
+
+.rodape__endereco {
+	display: flex;
+}
+
+
+.rodape__endereco__texto {
+	font-family: 'Wix Madefor Display', sans-serif;
 }
 
 /*
