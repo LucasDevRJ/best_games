@@ -1,10 +1,21 @@
 .principal {
-	padding: 70px;
-	margin: 30px 0;
+	padding: 70px 20px;
+}
+
+.principal__conteudo {
+	margin: 50px 0px;
+}
+
+.principal__conteudo__titulo {
+	font-family: 'Comfortaa', cursive;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.principal__conteudo__jogos {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 0 50px;
+	flex-wrap: wrap;
+	gap: 0px 10px;
 }
 
 .principal__conteudo__jogos__jogo {
@@ -14,6 +25,7 @@
 	box-sizing: border-box;
 	padding: 20px 20px 40px 20px;
 	background-color: #F5F5F5;
+	border-radius: 5px;
 }
 
 .principal__conteudo__jogos__jogo__imagem {
