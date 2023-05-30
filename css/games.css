@@ -13,8 +13,22 @@
 	border-color: #1746A2;	
 	box-sizing: border-box;
 	padding: 20px 20px 40px 20px;
+	background-color: #F5F5F5;
 }
 
 .principal__conteudo__jogos__jogo__imagem {
 	width: 15vw;
+	margin-bottom: 10px;
+}
+
+.principal__conteudo__jogos__jogo__titulo,
+.principal__conteudo__jogos__jogo__plataforma,
+.principal__conteudo__jogos__jogo__preco,
+.principal__conteudo__jogos__jogo__parcela {
+	font-family: 'Nunito', sans-serif;
+	line-height: 20px;
+}
+
+.principal__conteudo__jogos__jogo__parcela {
+	font-size: 14px;
 }
