@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&display=swap');
+
 .corpo {
 	background-color: #FFF7E9;
 }
@@ -13,6 +15,17 @@
 	align-items: center;
 	justify-content: space-between;
 	gap: 0 50px;
+}
+
+.principal__titulo {
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 52px;
+}
+
+.principal__texto {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
 }
 
 /*
