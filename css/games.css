@@ -32,6 +32,7 @@
 
 .principal__conteudo__jogos__jogo:hover {
 	opacity: 1.0;
+	border-color: #FF731D;
 }
 
 .principal__conteudo__jogos__jogo__imagem {
