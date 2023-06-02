@@ -1,5 +1,5 @@
 .rodape {
-	background-color: #FF731D;
+	background-color: var(--cor-primeira);
 	padding: 50px;
 }
 

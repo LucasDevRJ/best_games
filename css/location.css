@@ -21,7 +21,7 @@
 }
 
 .principal__a-parte {
-	background-color: #f0e68c;
+	background-color: var(--cor-terceira);
 	width: 10%;
 	position: absolute;
 	right: 0;

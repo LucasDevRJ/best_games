@@ -22,7 +22,7 @@
 .principal__conteudo__jogos__jogo {
 	border-style: solid;
 	border-width: 2px;
-	border-color: #1746A2;	
+	border-color: var(--cor-quarta);	
 	box-sizing: border-box;
 	padding: 20px 20px 40px 20px;
 	background-color: #F5F5F5;
@@ -33,7 +33,7 @@
 
 .principal__conteudo__jogos__jogo:hover {
 	opacity: 1.0;
-	border-color: #FF731D;
+	border-color: var(--cor-primeira);
 }
 
 .principal__conteudo__jogos__jogo__imagem {
@@ -43,7 +43,7 @@
 
 .principal__conteudo__jogos__jogo__titulo {
 	font-weight: bold;
-	color: #1746A2;
+	color: var(--cor-quarta);
 }
 
 .principal__conteudo__jogos__jogo__titulo,
@@ -55,7 +55,7 @@
 }
 
 .principal__conteudo__jogos__jogo__preco__destaque {
-	color: #006400;
+	color: #006400; /*cor fixa*/
 }
 
 .principal__conteudo__jogos__jogo__parcela {
