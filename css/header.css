@@ -17,5 +17,5 @@
 	text-decoration: none;
 	color: var(--cor-segunda);
 	font-size: 24px;
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--fonte-primeira);
 }

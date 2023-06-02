@@ -7,7 +7,7 @@
 }
 
 .principal__conteudo__titulo {
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--fonte-primeira);
 	font-size: 24px;
 	margin-bottom: 30px;
 }
@@ -50,7 +50,7 @@
 .principal__conteudo__jogos__jogo__plataforma,
 .principal__conteudo__jogos__jogo__preco,
 .principal__conteudo__jogos__jogo__parcela {
-	font-family: 'Nunito', sans-serif;
+	font-family: var(--fonte-segunda);
 	line-height: 20px;
 }
 
