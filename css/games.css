@@ -16,6 +16,7 @@
 	display: flex;
 	gap: 0px 10px;
 	overflow-x: auto;
+	padding-bottom: 10px;
 }
 
 .principal__conteudo__jogos__jogo {

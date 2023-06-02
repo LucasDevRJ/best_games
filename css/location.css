@@ -19,3 +19,19 @@
 	margin-top: 30px;
 	border-radius: 5px;
 }
+
+.principal__a-parte {
+	background-color: #f0e68c;
+	width: 10%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	width: 10%;
+	padding: 40px 10px;
+}
+
+.principal__a-parte__imagem {
+	width: 100%;
+	margin-bottom: 10px;
+}
