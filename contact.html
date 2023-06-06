@@ -30,12 +30,20 @@
 		</header>
 
 		<main class="principal">
-			<form action="" target="_blank">
+			<form action="" target="_blank" method="post" autocomplete="on" name="contato">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome">
 
                 <label for="email">E-mail:</label>
                 <input type="text" id="email" name="email">
+
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="assunto">
+                    <option value="elogio">Elogio</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="critica">Crítica</option>
+                    <option value="duvida">Dúvida</option>
+                </select>
             </form>
 		</main>
 
