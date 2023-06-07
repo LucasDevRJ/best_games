@@ -32,14 +32,14 @@
 		<main class="principal">
 			<form action="" target="_blank" method="post" autocomplete="on" name="contato">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
+                <input type="text" id="nome" name="nome" maxlength="50" placeholder="Digite seu nome" required>
 
                 <label for="email">E-mail:</label>
-                <input type="text" id="email" name="email">
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
                 <label for="genero">Gênero:</label>
 
-                <input type="radio" id="masculino" name="genero" value="masculino">
+                <input type="radio" id="masculino" name="genero" value="masculino" checked>
                 <label for="genero">Masculino</label>
 
                 <input type="radio" id="feminino" name="genero" value="feminino">
@@ -48,6 +48,9 @@
                 <input type="radio" id="outros" name="genero" value="outros">
                 <label for="genero">Outros</label>
 
+                <label for="nascimento">Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" required>
+
                 <label for="assunto">Assunto</label>
                 <select id="assunto" name="assunto">
                     <option value="elogio">Elogio</option>
@@ -55,6 +58,10 @@
                     <option value="critica">Crítica</option>
                     <option value="duvida">Dúvida</option>
                 </select>
+
+                <textarea name="mensagem" rows="10" cols="30">
+                    
+                </textarea>
 
                 <input type="submit" value="Enviar Mensagem">
             </form>
