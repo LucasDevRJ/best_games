@@ -20,3 +20,8 @@
     font-family: var(--fonte-segunda);
     width: var(--largura-entrada);
 }
+
+.principal__formulario__radio {
+    display: flex;
+    margin: var(--espacamento-externo-radio);
+}
