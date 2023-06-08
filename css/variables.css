@@ -7,4 +7,8 @@
     --fonte-primeira: 'Comfortaa', cursive;
     --fonte-segunda: 'Nunito', sans-serif;
     --fonte-terceira: 'Wix Madefor Display', sans-serif;
+
+    --fonte-tamanho-titulo: 2.5rem;
+    --fonte-tamanho-subtitulo: 2rem;
+    --fonte-tamanho-texto: 1.5rem;
 }
