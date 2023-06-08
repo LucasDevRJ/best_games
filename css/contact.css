@@ -33,3 +33,9 @@
     font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-segunda);
 }
+
+.principal__formulario__mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

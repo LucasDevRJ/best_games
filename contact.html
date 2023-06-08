@@ -59,17 +59,19 @@
 					<input class="principal__formulario__informacoes__pessoais__entrada" type="date" id="nascimento" name="nascimento" required>
 				</fieldset>
 
-                <label class="principal__formulario__informacoes__pessoais" for="assunto">Assunto</label>
-                <select id="assunto" name="assunto">
-                    <option value="elogio">Elogio</option>
-                    <option value="reclamacao">Reclamação</option>
-                    <option value="critica">Crítica</option>
-                    <option value="duvida">Dúvida</option>
-                </select>
-
-                <textarea name="mensagem" rows="10" cols="30">
-                    
-                </textarea>
+				<fieldset class="principal__formulario__mensagem">
+					<label class="principal__formulario__mensagem__texto" for="assunto">Assunto</label>
+					<select class="principal__formulario__mensagem__selecao" id="assunto" name="assunto">
+						<option class="principal__formulario__mensagem__selecao__opcao" value="critica">Crítica</option>
+						<option class="principal__formulario__mensagem__selecao__opcao" value="elogio">Elogio</option>
+						<option class="principal__formulario__mensagem__selecao__opcao" value="reclamacao">Reclamação</option>
+						<option class="principal__formulario__mensagem__selecao__opcao" value="duvida">Dúvida</option>
+					</select>
+	
+					<textarea name="mensagem" rows="10" cols="30" placeholder="Digite a sua mensagem" required>
+						
+					</textarea>
+				</fieldset>
 
                 <input type="submit" value="Enviar Mensagem">
             </form>
