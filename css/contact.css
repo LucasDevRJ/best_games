@@ -31,7 +31,9 @@
     border-color: var(--cor-borda-entrada);
 }
 
-.principal__formulario__informacoes__pessoais__entrada:focus {
+.principal__formulario__informacoes__pessoais__entrada:focus,
+.principal__formulario__mensagem__selecao:focus,
+.principal__formulario__mensagem__campo:focus {
     background-color: var(--cor-fundo-entrada);
 }
 
