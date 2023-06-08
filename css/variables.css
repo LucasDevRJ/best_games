@@ -18,4 +18,10 @@
     --espacamento-externo-entrada: 1.8rem 0;
     --fonte-tamanho-entrada: 1.1rem;
     --largura-entrada: 30%;
+    --cor-fundo-entrada: #FFFAF0;
+    --cor-borda-entrada: #363636;
+
+    --espacamento-interno-botao: 1.2rem 1.0rem;
+    --fonte-tamanho-botao: 1rem;
+    --largura-botao: 20%;
 }

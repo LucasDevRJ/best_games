@@ -26,6 +26,13 @@
     font-size: var(--fonte-tamanho-entrada);
     font-family: var(--fonte-segunda);
     width: var(--largura-entrada);
+    border-width: 0.0625rem;
+    border-style: solid;
+    border-color: var(--cor-borda-entrada);
+}
+
+.principal__formulario__informacoes__pessoais__entrada:focus {
+    background-color: var(--cor-fundo-entrada);
 }
 
 .principal__formulario__informacoes__pessoais__radio {
@@ -59,4 +66,15 @@
     font-family: var(--fonte-segunda);
     width: var(--largura-entrada);
     padding: var(--espacamento-interno-entrada);
+}
+
+.principal__formulario__botao {
+    padding: var(--espacamento-interno-botao);
+    font-size: var(--fonte-tamanho-botao);
+    width: var(--largura-botao);
+    margin: var(--espacamento-externo);
+    background-color: var(--cor-primeira);
+    color: var(--cor-segunda);
+    border: none;
+    cursor: pointer;
 }
