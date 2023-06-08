@@ -46,3 +46,14 @@
     font-family: var(--fonte-segunda);
     margin: var(--espacamento-externo);
 }
+
+.principal__formulario__mensagem__selecao {
+    padding: var(--espacamento-interno-entrada);
+    width: var(--largura-entrada);
+    font-size: var(--fonte-tamanho-entrada);
+    font-family: var(--fonte-segunda);
+}
+
+.principal__formulario__mensagem__selecao__opcao {
+
+}
