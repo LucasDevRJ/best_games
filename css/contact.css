@@ -1,3 +1,7 @@
+.principal {
+    padding: 70px;
+}
+
 .principal__formulario__texto {
-    font-size: ;
+    font-size: var(--fonte-tamanho-texto);
 }
