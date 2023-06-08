@@ -12,3 +12,7 @@
     font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-segunda);
 }
+
+.principal__formulario__entrada {
+    padding: var(--espacamento-interno-entrada);
+}
