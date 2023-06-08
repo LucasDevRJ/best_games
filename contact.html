@@ -40,7 +40,7 @@
                 	<input class="principal__formulario__informacoes__pessoais__entrada" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
 					<label class="principal__formulario__informacoes__pessoais__texto" for="celular">Celular:</label>
-                	<input class="principal__formulario__informacoes__pessoais__entrada" type="tel" id="celular" name="celular" placeholder="Digite seu celular" required>
+                	<input class="principal__formulario__informacoes__pessoais__entrada" type="tel" id="celular" name="celular" placeholder="Digite seu celular" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
 
                 	<label class="principal__formulario__informacoes__pessoais__texto" for="genero">Gênero:</label>
 
@@ -70,7 +70,7 @@
 						<option class="principal__formulario__mensagem__selecao__opcao" value="duvida">Dúvida</option>
 					</select>
 	
-					<textarea class="principal__formulario__mensagem__campo" name="mensagem" rows="10" cols="30" placeholder="Digite a sua mensagem" required>
+					<textarea class="principal__formulario__mensagem__campo" name="mensagem" rows="10" cols="30" placeholder="Digite a sua mensagem" minlength="100" maxlength="1000" required>
 						
 					</textarea>
 				</fieldset>
