@@ -30,28 +30,28 @@
 		</header>
 
 		<main class="principal">
-			<form action="" target="_blank" method="post" autocomplete="on" name="contato">
-                <label for="nome">Nome:</label>
+			<form class="principal__formulario" action="" target="_blank" method="post" autocomplete="on" name="contato">
+                <label class="principal__formulario__texto" for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" maxlength="50" placeholder="Digite seu nome" required>
 
-                <label for="email">E-mail:</label>
+                <label class="principal__formulario__texto" for="email">E-mail:</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
-                <label for="genero">Gênero:</label>
+                <label class="principal__formulario__texto" for="genero">Gênero:</label>
 
                 <input type="radio" id="masculino" name="genero" value="masculino" checked>
-                <label for="genero">Masculino</label>
+                <label class="principal__formulario__texto" for="genero">Masculino</label>
 
                 <input type="radio" id="feminino" name="genero" value="feminino">
-                <label for="genero">Feminino</label>
+                <label class="principal__formulario__texto" for="genero">Feminino</label>
 
                 <input type="radio" id="outros" name="genero" value="outros">
-                <label for="genero">Outros</label>
+                <label class="principal__formulario__texto" for="genero">Outros</label>
 
-                <label for="nascimento">Nascimento:</label>
+                <label class="principal__formulario__texto" for="nascimento">Nascimento:</label>
                 <input type="date" id="nascimento" name="nascimento" required>
 
-                <label for="assunto">Assunto</label>
+                <label class="principal__formulario__texto" for="assunto">Assunto</label>
                 <select id="assunto" name="assunto">
                     <option value="elogio">Elogio</option>
                     <option value="reclamacao">Reclamação</option>
