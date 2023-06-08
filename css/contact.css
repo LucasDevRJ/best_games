@@ -9,7 +9,9 @@
 }
 
 .principal__formulario__informacoes__pessoais__titulo {
-    font-size: var(--fonte-tamanho-titulo);
+    font-size: var(--fonte-tamanho-subtitulo);
+    font-family: var(--fonte-primeira);
+    margin: var(--espacamento-externo);
 }
 
 .principal__formulario__informacoes__pessoais__texto {
@@ -27,7 +29,7 @@
 
 .principal__formulario__radio {
     display: flex;
-    margin: var(--espacamento-externo-radio);
+    margin: var(--espacamento-externo);
     font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-segunda);
 }

@@ -12,10 +12,10 @@
     --fonte-tamanho-subtitulo: 2rem;
     --fonte-tamanho-texto: 1.5rem;
 
+    --espacamento-externo: 1.8rem 0;
+
     --espacamento-interno-entrada: 0.5rem 0.75rem;
     --espacamento-externo-entrada: 1.8rem 0;
     --fonte-tamanho-entrada: 1.1rem;
     --largura-entrada: 30%;
-
-    --espacamento-externo-radio: 1.8rem 0;
 }
