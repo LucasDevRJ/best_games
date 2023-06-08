@@ -2,18 +2,22 @@
     padding: 70px;
 }
 
-.principal__formulario {
+.principal__formulario__informacoes__pessoais {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.principal__formulario__texto {
+.principal__formulario__informacoes__pessoais__titulo {
+    font-size: var(--fonte-tamanho-titulo);
+}
+
+.principal__formulario__informacoes__pessoais__texto {
     font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-segunda);
 }
 
-.principal__formulario__entrada {
+.principal__formulario__informacoes__pessoais__entrada {
     padding: var(--espacamento-interno-entrada);
     margin: var(--espacamento-externo-entrada);
     font-size: var(--fonte-tamanho-entrada);

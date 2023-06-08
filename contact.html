@@ -31,29 +31,35 @@
 
 		<main class="principal">
 			<form class="principal__formulario" action="" target="_blank" method="post" autocomplete="on" name="contato">
-                <label class="principal__formulario__texto" for="nome">Nome:</label>
-                <input class="principal__formulario__entrada" type="text" id="nome" name="nome" maxlength="50" placeholder="Digite seu nome" required>
+                <fieldset class="principal__formulario__informacoes__pessoais">
+					<legend class="principal__formulario__informacoes__pessoais__titulo">Informações Pessoais</legend>
+					<label class="principal__formulario__informacoes__pessoais__texto" for="nome">Nome:</label>
+                	<input class="principal__formulario__informacoes__pessoais__entrada" type="text" id="nome" name="nome" maxlength="50" placeholder="Digite seu nome" required>
 
-                <label class="principal__formulario__texto" for="email">E-mail:</label>
-                <input class="principal__formulario__entrada" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                	<label class="principal__formulario__informacoes__pessoais__texto" for="email">E-mail:</label>
+                	<input class="principal__formulario__informacoes__pessoais__entrada" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
-                <label class="principal__formulario__texto" for="genero">Gênero:</label>
+					<label class="principal__formulario__informacoes__pessoais__texto" for="celular">Celular:</label>
+                	<input class="principal__formulario__informacoes__pessoais__entrada" type="tel" id="celular" name="celular" placeholder="Digite seu celular" required>
 
-				<div class="principal__formulario__radio">
-					<input class="principal__formulario__radio__genero" type="radio" id="masculino" name="genero" value="masculino" checked>
-					<label class="principal__formulario__radio__texto" for="genero">Masculino</label>
+                	<label class="principal__formulario__informacoes__pessoais__texto" for="genero">Gênero:</label>
 
-					<input class="principal__formulario__radio__genero" type="radio" id="feminino" name="genero" value="feminino">
-					<label class="principal__formulario__radio__texto" for="genero">Feminino</label>
+					<div class="principal__formulario__radio">
+						<input class="principal__formulario__radio__genero" type="radio" id="masculino" name="genero" value="masculino" checked>
+						<label class="principal__formulario__radio__texto" for="genero">Masculino</label>
 
-					<input class="principal__formulario__radio__genero" type="radio" id="outros" name="genero" value="outros">
-					<label class="principal__formulario__radio__texto" for="genero">Outros</label>
-				</div>
+						<input class="principal__formulario__radio__genero" type="radio" id="feminino" name="genero" value="feminino">
+						<label class="principal__formulario__radio__texto" for="genero">Feminino</label>
 
-                <label class="principal__formulario__texto" for="nascimento">Nascimento:</label>
-                <input class="principal__formulario__entrada" type="date" id="nascimento" name="nascimento" required>
+						<input class="principal__formulario__radio__genero" type="radio" id="outros" name="genero" value="outros">
+						<label class="principal__formulario__radio__texto" for="genero">Outros</label>
+					</div>
 
-                <label class="principal__formulario__texto" for="assunto">Assunto</label>
+					<label class="principal__formulario__informacoes__pessoais__texto" for="nascimento">Nascimento:</label>
+					<input class="principal__formulario__informacoes__pessoais__entrada" type="date" id="nascimento" name="nascimento" required>
+				</fieldset>
+
+                <label class="principal__formulario__informacoes__pessoais" for="assunto">Assunto</label>
                 <select id="assunto" name="assunto">
                     <option value="elogio">Elogio</option>
                     <option value="reclamacao">Reclamação</option>
