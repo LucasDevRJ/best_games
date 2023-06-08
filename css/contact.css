@@ -44,7 +44,6 @@
 .principal__formulario__mensagem__texto {
     font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-segunda);
-    margin: var(--espacamento-externo);
 }
 
 .principal__formulario__mensagem__selecao {
@@ -52,8 +51,12 @@
     width: var(--largura-entrada);
     font-size: var(--fonte-tamanho-entrada);
     font-family: var(--fonte-segunda);
+    margin: var(--espacamento-externo-entrada);
 }
 
-.principal__formulario__mensagem__selecao__opcao {
-
+.principal__formulario__mensagem__campo {
+    font-size: var(--fonte-tamanho-entrada);
+    font-family: var(--fonte-segunda);
+    width: var(--largura-entrada);
+    padding: var(--espacamento-interno-entrada);
 }
