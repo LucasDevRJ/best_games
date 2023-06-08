@@ -27,7 +27,7 @@
     width: var(--largura-entrada);
 }
 
-.principal__formulario__radio {
+.principal__formulario__informacoes__pessoais__radio {
     display: flex;
     margin: var(--espacamento-externo);
     font-size: var(--fonte-tamanho-texto);
