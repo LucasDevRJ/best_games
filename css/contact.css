@@ -8,7 +8,8 @@
     align-items: flex-start;
 }
 
-.principal__formulario__informacoes__pessoais__titulo {
+.principal__formulario__informacoes__pessoais__titulo,
+.principal__formulario__mensagem__titulo {
     font-size: var(--fonte-tamanho-subtitulo);
     font-family: var(--fonte-primeira);
     margin: var(--espacamento-externo);
@@ -38,4 +39,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.principal__formulario__mensagem__texto {
+    font-size: var(--fonte-tamanho-texto);
+    font-family: var(--fonte-segunda);
+    margin: var(--espacamento-externo);
 }
