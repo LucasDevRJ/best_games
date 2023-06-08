@@ -15,4 +15,5 @@
 
 .principal__formulario__entrada {
     padding: var(--espacamento-interno-entrada);
+    margin: var(--espacamento-externo-entrada);
 }
