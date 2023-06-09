@@ -36,8 +36,16 @@
 	margin-bottom: 10px;
 }
 
+.principal__horarios {
+	display: flex;
+	justify-content: center;
+	margin: 3.1rem;
+}
+
 .principal__horarios__tabela,
 .principal__horarios__tabela__cabecalho,
+.principal__horarios__tabela__cabecalho__coluna,
+.principal__horarios__tabela__cabecalho__coluna__linha,
 .principal__horarios__tabela__corpo__coluna__linha {
 	border-width: 2px;
 	border-style: solid;
