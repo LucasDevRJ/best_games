@@ -39,7 +39,11 @@
 .principal__horarios {
 	display: flex;
 	justify-content: center;
-	margin: 3.1rem;
+	margin-top: 60px;
+}
+
+.principal__horarios__tabela {
+	width: 48%;
 }
 
 .principal__horarios__tabela,
@@ -56,6 +60,7 @@
 	padding: 10px 30px;
 	font-size: var(--fonte-tamanho-texto);
 	font-family: var(--fonte-segunda);
+	text-align: center;
 }
 
 .principal__horarios__tabela__cabecalho__coluna__linha,
