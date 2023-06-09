@@ -50,5 +50,7 @@
 	border-width: 2px;
 	border-style: solid;
 	border-color: #000000;
-	padding: 10px;
+	padding: 10px 30px;
+	font-size: var(--fonte-tamanho-texto);
+	font-family: var(--fonte-segunda);
 }
