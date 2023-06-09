@@ -54,3 +54,9 @@
 	font-size: var(--fonte-tamanho-texto);
 	font-family: var(--fonte-segunda);
 }
+
+.principal__horarios__tabela__cabecalho__coluna__linha {
+	padding: 20px 30px;
+	background-color: var(--cor-primeira);
+	color: var(--cor-segunda);
+}
