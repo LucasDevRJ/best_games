@@ -46,7 +46,10 @@
 .principal__horarios__tabela__cabecalho,
 .principal__horarios__tabela__cabecalho__coluna,
 .principal__horarios__tabela__cabecalho__coluna__linha,
-.principal__horarios__tabela__corpo__coluna__linha {
+.principal__horarios__tabela__corpo__coluna__linha,
+.principal__horarios__tabela__rodape,
+.principal__horarios__tabela__rodape__coluna,
+.principal__horarios__tabela__rodape__coluna__linha {
 	border-width: 2px;
 	border-style: solid;
 	border-color: #000000;
@@ -55,7 +58,8 @@
 	font-family: var(--fonte-segunda);
 }
 
-.principal__horarios__tabela__cabecalho__coluna__linha {
+.principal__horarios__tabela__cabecalho__coluna__linha,
+.principal__horarios__tabela__rodape__coluna__linha {
 	padding: 20px 30px;
 	background-color: var(--cor-primeira);
 	color: var(--cor-segunda);
