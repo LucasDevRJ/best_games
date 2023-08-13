@@ -30,3 +30,25 @@
 .rodape__endereco__imagem {
 	margin-top: 10px;
 }
+
+@media (max-width: 480px) {
+	.rodape {
+		padding: 70px 0;
+	}
+
+	.rodape__logo {
+		display: none;
+	}
+
+	.rodape {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.rodape__endereco {
+		position: static;
+		flex-direction: column;
+		gap: 30px 0;
+		text-align: center;
+	}
+}
