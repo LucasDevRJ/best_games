@@ -21,6 +21,10 @@
 }
 
 @media (max-width: 480px) {
+	.cabecalho__titulo__imagem {
+		width: 100%;
+	}
+
 	.cabecalho__menu {
 		flex-direction: column;
 		gap: 10px 0;
