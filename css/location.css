@@ -69,3 +69,11 @@
 	background-color: var(--cor-primeira);
 	color: var(--cor-segunda);
 }
+
+@media (max-width: 480px) {
+	.principal__a-parte {
+		position: static;
+		width: 50%;
+		margin: 30px auto;
+	}
+}
