@@ -71,6 +71,14 @@
 }
 
 @media (max-width: 480px) {
+	.principal__localizacao__texto {
+		padding: 0 20px;
+	}
+
+	.principal__localizacao__mapa {
+		width: 90%;
+	}
+	
 	.principal__a-parte {
 		position: static;
 		width: 50%;
