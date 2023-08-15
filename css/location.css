@@ -78,10 +78,20 @@
 	.principal__localizacao__mapa {
 		width: 90%;
 	}
-	
+
 	.principal__a-parte {
 		position: static;
 		width: 50%;
 		margin: 30px auto;
+	}
+
+	.principal__horarios__tabela {
+		width: 90%;
+	}
+
+	.principal__horarios__tabela__cabecalho__coluna__linha,
+	.principal__horarios__tabela__corpo__coluna__linha,
+	.principal__horarios__tabela__rodape__coluna__linha {
+		padding: 10px;
 	}
 }
