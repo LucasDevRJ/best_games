@@ -80,3 +80,9 @@
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+	.principal {
+        padding: 70px 16px;
+    }
+}
