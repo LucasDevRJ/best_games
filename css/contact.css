@@ -85,4 +85,8 @@
 	.principal {
         padding: 70px 16px;
     }
+
+    .principal__formulario__informacoes__pessoais__entrada {
+        width: 60%;
+    }
 }
