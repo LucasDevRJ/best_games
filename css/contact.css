@@ -50,7 +50,8 @@
     align-items: flex-start;
 }
 
-.principal__formulario__mensagem__texto {
+.principal__formulario__mensagem__texto,
+.principal__formulario__mensagem__label {
     font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-segunda);
 }
@@ -68,6 +69,7 @@
     font-family: var(--fonte-segunda);
     width: var(--largura-entrada);
     padding: var(--espacamento-interno-entrada);
+    margin: var(--espacamento-externo-entrada);
 }
 
 .principal__formulario__botao {
@@ -86,7 +88,9 @@
         padding: 70px 16px;
     }
 
-    .principal__formulario__informacoes__pessoais__entrada {
+    .principal__formulario__informacoes__pessoais__entrada,
+    .principal__formulario__mensagem__selecao,
+    .principal__formulario__mensagem__campo {
         width: 60%;
     }
 }
