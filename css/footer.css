@@ -35,6 +35,11 @@
 	.rodape__logo {
 		width: 30%;
 	}
+
+	.rodape__endereco {
+		display: flex;
+		gap: 0 50px;
+	}
 }
 
 @media (max-width: 480px) {
