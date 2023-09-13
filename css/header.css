@@ -20,6 +20,17 @@
 	font-family: var(--fonte-primeira);
 }
 
+@media (max-width: 800px) {
+	.cabecalho__titulo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.cabecalho__titulo__imagem {
+		width: 50%;
+	}
+}
+
 @media (max-width: 480px) {
 	.cabecalho__titulo__imagem {
 		width: 100%;

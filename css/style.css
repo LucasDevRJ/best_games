@@ -29,6 +29,13 @@
 	margin-top: 5px;
 }
 
+@media (max-width: 800px) {
+	.principal {
+		flex-direction: column;
+		gap: 30px 0;
+	}
+}
+
 @media (max-width: 480px) {
 	.principal {
 		flex-direction: column;
@@ -38,12 +45,5 @@
 
 	.principal__figura__imagem {
 		width: 100%;
-	}
-}
- 
-@media (max-width: 800px) {
-	.principal {
-		flex-direction: column;
-		gap: 30px 0;
 	}
 }
