@@ -70,6 +70,23 @@
 	color: var(--cor-segunda);
 }
 
+@media (max-width: 800px) {
+	.principal {
+		padding: 90px 10px;
+	}
+
+	.principal__a-parte {
+		position: relative;
+		width: 30%;
+		left: 35%;
+		top: 50px;
+	}
+
+	.principal__horarios__tabela {
+		width: 70%;
+	}
+}
+
 @media (max-width: 480px) {
 	.principal__localizacao__texto {
 		padding: 0 20px;
