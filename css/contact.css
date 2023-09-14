@@ -83,6 +83,14 @@
     cursor: pointer;
 }
 
+@media (max-width: 800px) {
+	.principal__formulario__informacoes__pessoais__entrada {
+        padding: 0.8rem;
+        width: 60%;
+        font-size: 1.6rem;
+    }
+}
+
 @media (max-width: 480px) {
 	.principal {
         padding: 70px 16px;
